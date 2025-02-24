@@ -1,0 +1,8 @@
+a partir de ahora las respuestas me las das en español, inicialmente lee el archivo @README.md y analiza
+toda la implementación de la logica de negocio que esta en el directorio @src  para que tengas contexto del
+proyecto, el proyecto se ha desarrollado con laravel 11 por lo que los registros de los providers estan en
+este fichero: @providers.php  todas las rutas en el proyecto se gestionan en el directorio: @src/Shared/Routes
+y las plantillas blade desde este directorio: @src/Infrastructure/Resources/views . Con todo este contexto genera
+todas las anotaciones y documentacion con OpenApi utilizando swagger y redoc el directorio de controladores es
+este: @src/Infrastructure/Controllers/API . Importante, no cambies ninguna de las implementaciones en las clases,
+solo limitate a generar la documentacion

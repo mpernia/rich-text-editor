@@ -1,0 +1,11 @@
+genera un proyecto "frontend" con vuejs3 que:
+	a) en la pagina principal muestre un boton "Nuevo Post", que llame a un modalDialog con el formulario de creacion de post, y haga una peticion al endpoint de crear post al hacer clic en el boton "Guardar" del formulario
+	b) una tabla con las columnas: title, summary, content, status, action,
+	c) en la tabla debe mostrar todos los "post" guardados a traves del backend, por lo que al cargar debe hacer una peticion al backend para obtener todos los post y llenar la tabla
+	d) en la columna action deben aparecer tres botones: editar, eliminar, descargar
+	e) acciones de botones de la columna action:
+		- boton "editar", debe hacer una peticion al backend enviando el "id" del post para recibir todos los valores y mostrar en un modalDialog el formulario de edicion,
+		- boton "eliminar", debe mostar un dialogo de confirmacion, si se confirma la accion, debe hacer una peticion al endpoint para eliminar un post pasando el "id" del post a eliminar
+		- boton "descargar", debe hacer una peticion al endpoint del backend que genera el pdf y mostrarlo para que pueda ser descargado
+	f) al hacer clic en el boton "Guardar" del formulario de edicion, debe hacer una peticion al endpoint de actualizar post
+	g) en los formularios de creacion/edicion, para los valores de: summary y content debe mostrar una instancia de VueQuill, con las opciones simplificadas, donde solo se pueda dar formato a los textos.

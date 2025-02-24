@@ -1,0 +1,34 @@
+/* Customize Swagger UI footer */
+.swagger-ui .info {
+    margin: 20px 0 !important;
+}
+
+.swagger-ui .info .title {
+    margin: 0 0 10px 0 !important;
+}
+
+.swagger-ui .info .description {
+    margin: 0 0 10px 0 !important;
+}
+
+.swagger-ui .scheme-container {
+    margin: 0 0 10px 0 !important;
+    padding: 10px 0 !important;
+}
+
+/* Make the footer more compact */
+.swagger-ui .info .footer {
+    padding: 10px 0 !important;
+    margin: 10px 0 0 0 !important;
+}
+
+/* Adjust spacing for better table visibility */
+.swagger-ui .wrapper {
+    padding: 0 20px !important;
+    margin: 0 auto !important;
+}
+
+/* Ensure table is fully visible */
+.swagger-ui table {
+    margin-bottom: 0 !important;
+}
